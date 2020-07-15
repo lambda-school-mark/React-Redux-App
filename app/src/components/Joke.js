@@ -13,10 +13,10 @@ const Joke = (props) => {
     props.fetchJoke();
   }, [shuffle]);
   return (
-    <div>
+    <div className="jokeContainer">
       {props.isLoading && <p>causally testing your patience</p>}
       {props.joke && (
-        <div>
+        <div className="jokeDisplay">
           <h4>{props.joke.setup}</h4>
           <p>{props.joke.punchline}</p>
         </div>
