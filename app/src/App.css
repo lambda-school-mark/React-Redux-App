@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.body {
+  background-color: #1c3144;
+}
+
+.jokeContainer {
+  background-color: #bfdbf7;
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px 40px;
+  border-radius: 2px;
+}
+
+.jokeContainer > button {
+  background-color: #bfdbf7;
+  color: #e1aa7d;
+  border: 1.5px solid #e1aa7d;
+  border-radius: 2px;
+  padding: 4px 5px;
+  font-weight: bold;
+}
+
+.jokeContainer > button:hover {
+  background-color: #e1aa7d;
+  color: #bfdbf7;
+  border: 1.5px solid #e1aa7d;
+  border-radius: 2px;
+  padding: 4px 5px;
+  font-weight: bold;
+}
+
+.jokeDisplay > h4 {
+  color: #2e2836;
+}
+
+.jokeDisplay > p {
+  color: #3f88c5;
+}
